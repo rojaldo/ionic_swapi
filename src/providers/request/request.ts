@@ -13,6 +13,7 @@ export class RequestProvider {
 
   public people: any[];
   public selectedCharacter: any;
+  public next: string;
 
   constructor(public http: HttpClient) {
     console.log('Hello RequestProvider Provider');
